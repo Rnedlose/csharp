@@ -1,0 +1,11 @@
+C:\Users\rnedl\OneDrive\Documents\myprojects\csharp\App03\bin\Debug\netcoreapp2.2\App03.deps.json
+C:\Users\rnedl\OneDrive\Documents\myprojects\csharp\App03\bin\Debug\netcoreapp2.2\App03.runtimeconfig.json
+C:\Users\rnedl\OneDrive\Documents\myprojects\csharp\App03\bin\Debug\netcoreapp2.2\App03.runtimeconfig.dev.json
+c:\Users\rnedl\OneDrive\Documents\myprojects\csharp\App03\bin\Debug\netcoreapp2.2\App03.dll
+c:\Users\rnedl\OneDrive\Documents\myprojects\csharp\App03\bin\Debug\netcoreapp2.2\App03.pdb
+c:\Users\rnedl\OneDrive\Documents\myprojects\csharp\App03\obj\Debug\netcoreapp2.2\App03.csprojAssemblyReference.cache
+c:\Users\rnedl\OneDrive\Documents\myprojects\csharp\App03\obj\Debug\netcoreapp2.2\App03.csproj.CoreCompileInputs.cache
+c:\Users\rnedl\OneDrive\Documents\myprojects\csharp\App03\obj\Debug\netcoreapp2.2\App03.AssemblyInfoInputs.cache
+c:\Users\rnedl\OneDrive\Documents\myprojects\csharp\App03\obj\Debug\netcoreapp2.2\App03.AssemblyInfo.cs
+c:\Users\rnedl\OneDrive\Documents\myprojects\csharp\App03\obj\Debug\netcoreapp2.2\App03.dll
+c:\Users\rnedl\OneDrive\Documents\myprojects\csharp\App03\obj\Debug\netcoreapp2.2\App03.pdb
