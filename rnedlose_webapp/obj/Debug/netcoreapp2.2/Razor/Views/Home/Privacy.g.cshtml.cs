@@ -13,18 +13,7 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
-#line 1 "C:\Users\rnedl\Documents\myprojects\csharp\rnedlose_webapp\Views\_ViewImports.cshtml"
-using rnedlose_webapp;
-
-#line default
-#line hidden
-#line 2 "C:\Users\rnedl\Documents\myprojects\csharp\rnedlose_webapp\Views\_ViewImports.cshtml"
-using rnedlose_webapp.Models;
-
-#line default
-#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d8ddb6bffa5a9b264bf8f89038bf03c234083fd3", @"/Views/Home/Privacy.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f80bbd4819bc942c02c2e5eb80fdc9a1c0cce7c8", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Privacy : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
