@@ -24,3 +24,5 @@ C:\Users\rnedl\Documents\myprojects\csharp\rnedlose_webapp\obj\Debug\netcoreapp2
 C:\Users\rnedl\Documents\myprojects\csharp\rnedlose_webapp\obj\Debug\netcoreapp2.2\rnedlose_webapp.dll
 C:\Users\rnedl\Documents\myprojects\csharp\rnedlose_webapp\obj\Debug\netcoreapp2.2\rnedlose_webapp.pdb
 C:\Users\rnedl\Documents\myprojects\csharp\rnedlose_webapp\obj\Debug\netcoreapp2.2\rnedlose_webapp.csproj.CopyComplete
+C:\Users\rnedl\Documents\myprojects\csharp\rnedlose_webapp\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\rnedl\Documents\myprojects\csharp\rnedlose_webapp\obj\Debug\netcoreapp2.2\Razor\Views\Home\Contact.g.cshtml.cs
