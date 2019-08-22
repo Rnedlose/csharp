@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rnedl\\OneDrive\\Documents\\myprojects\\csharp\\App03\\App03.csproj": {}
+    "C:\\Users\\rnedl\\Documents\\myprojects\\csharp\\App03\\App03.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rnedl\\OneDrive\\Documents\\myprojects\\csharp\\App03\\App03.csproj": {
+    "C:\\Users\\rnedl\\Documents\\myprojects\\csharp\\App03\\App03.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rnedl\\OneDrive\\Documents\\myprojects\\csharp\\App03\\App03.csproj",
+        "projectUniqueName": "C:\\Users\\rnedl\\Documents\\myprojects\\csharp\\App03\\App03.csproj",
         "projectName": "App03",
-        "projectPath": "C:\\Users\\rnedl\\OneDrive\\Documents\\myprojects\\csharp\\App03\\App03.csproj",
+        "projectPath": "C:\\Users\\rnedl\\Documents\\myprojects\\csharp\\App03\\App03.csproj",
         "packagesPath": "C:\\Users\\rnedl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rnedl\\OneDrive\\Documents\\myprojects\\csharp\\App03\\obj\\",
+        "outputPath": "C:\\Users\\rnedl\\Documents\\myprojects\\csharp\\App03\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
