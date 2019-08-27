@@ -1,0 +1,254 @@
+START:
+DISPLAY "Let's play a game!!"
+
+INT Choice
+
+WHILE GameChoice is not equal to 3:
+  DISPLAY "Choose your game!!"
+  DISPLAY "1. Hangman!!"
+  DISPLAY "2. Rock, Paper, Scissors!!"
+  DISPLAY "3. Exit program."
+
+  INPUT GameChoice
+
+  IF GameChoice is equal to 1:
+    DISPLAY "Lets play Hangman!!"
+
+    DICITONARY Words
+                  {bomb,
+                  reign,
+                  welcome,
+                  calculate,
+                  country,
+                  tendency,
+                  kettle,
+                  liquid,
+                  living,
+                  dazzling,
+                  signal,
+                  form,
+                  hand,
+                  division,
+                  worried,
+                  left,
+                  warlike,
+                  absorbed,
+                  cultured,
+                  wistful,
+                  linen,
+                  wipe,
+                  detect,
+                  listen,
+                  blue,
+                  efficacious,
+                  far-flung,
+                  playground,
+                  stuff,
+                  alert,
+                  bent,
+                  measure,
+                  coach,
+                  greedy,
+                  mighty,
+                  expansion,
+                  night,
+                  staking,
+                  cent,
+                  press,
+                  labored,
+                  shake,
+                  fool,
+                  cow,
+                  gamy,
+                  bells,
+                  line,
+                  adorable,
+                  admit,
+                  song,
+                  serve,
+                  lace,
+                  stream,
+                  acrid,
+                  birds,
+                  trace,
+                  explain,
+                  replace,
+                  trucks,
+                  far,
+                  certain,
+                  temporary,
+                  army,
+                  clumsy,
+                  simple,
+                  expand,
+                  furtive,
+                  functional,
+                  ripe,
+                  middle,
+                  trouble,
+                  dead,
+                  murky,
+                  mailbox,
+                  close,
+                  watery,
+                  unfasten,
+                  disagreeable,
+                  kind,
+                  marvelous,
+                  curl,
+                  tow,
+                  flashy,
+                  home,
+                  giant,
+                  adventurous,
+                  clover,
+                  time,
+                  feeble,
+                  end,
+                  volleyball,
+                  responsible,
+                  trade,
+                  station,
+                  ship,
+                  ugliest,
+                  shop,
+                  thumb,
+                  runner,
+                  small}
+
+    DISPLAY "RULES"
+    DISPLAY "You have 7 guesses."
+    DISPLAY "Please enter in a single letter when prompted for a guess."
+    DISPLAY "If your guess is in the word, the letter will show up where it is in the word."
+    DISPLAY "If your guess is not in the word, you lose one guess."
+    DISPLAY "After each guess, you can attempt to solve the word by entering your choice when prompted."
+    DISPLAY "If your word guess is correct, you win!!"
+    DISPLAY "If your word guess is incorrect, you lose 2 guesses."
+    DISPLAY "If you run out of guesses, you lose!!"
+
+
+    INT Guesses is equal to 7
+    STRING GuessWord
+    CHAR CharGuess
+
+    WHILE Guesses not equal to 0:
+
+      STRING Word is equal to Words[RANDOM]
+
+      STRING DisplayWord is equal to Word
+
+      DISPLAY "Your word has the following number of blank spaces: "
+      FOR character in DisplayWord:
+        DisplayWord[character] is equal to "_"
+
+      DISPLAY DisplayWord
+
+      CALL CharacterGuess
+
+      CALL WordGuess
+
+    FUNCTION CharacterGuess:
+      DISPLAY "Guess a letter: "
+      INPUT CharGuess
+
+      FOR character in Word:
+        IF CharGuess is equal to Word[character]:
+          DisplayWord[character] is equal to CharGuess
+        ELSE:
+         DISPLAY "That letter is not in the word!!"
+         SET Guesses equals Guesses - 1
+
+     FUNCTION WordGuess:
+
+       CHAR Answer
+
+       DISPLAY "Would you like to guess the word?"
+       DISPLAY "(Enter Y or y for yes, N or n for no.)"
+
+       IF Answer is equal to Y OR Answer is equal to y:
+         DISPLAY "Enter your word guess: "
+         INPUT GuessWord
+
+         IF GuessWord is equal to Word:
+           DISPLAY "You correctly guessed the word!!"
+           DISPLAY Word
+           DISPLAY "That means you win!!"
+         ELSE IF GuessWord is not equal to Word:
+           DISPLAY "Incorrect guess!!"
+           SET Guesses equals Guesses - 2
+       ELSE:
+         BREAK
+
+
+  ELSE IF GameChoice is equal to 2:
+    DISPLAY "Lets play Rock, Paper, Scissors!!"
+
+    DISPLAY "RULES"
+    DISPLAY "You choose Rock, Paper, or Scissors."
+    DISPLAY "The Program will choose as well at random."
+    DISPLAY "Rock beats Scissors, Scissors beats Paper, and Paper beats Rock."
+    DISPLAY "Best out of 5 rounds wins!!"
+
+    INT Rounds equal to 5
+    INT PlayerWins equal to 0
+    INT PlayerLosses equal to 0
+    INT PlayerChoice
+    INT ProgramChoice
+    INT ProgramChoices
+        {Rock,
+        Paper,
+        Scissors}
+    While Rounds is not equal to 0:
+      DISPLAY "Begin!!"
+      DISPLAY "Enter your choice: "
+      DISPLAY "1. Rock."
+      DISPLAY "2. Paper."
+      DISPLAY "3. Scissors."
+
+      ProgramChoice is equal to ProgramChoices[RANDOM]
+
+      INPUT PlayerChoice
+
+      IF PlayerChoice is equal to 1:
+        IF ProgramChoice is equal to Rock:
+          DISPLAY "Draw."
+        ELSE IF ProgamChoice is equal to Paper:
+          DISPLAY "Program chose Paper, so you lose this round!!"
+          SET PlayerLosses equal to PlayerLosses + 1
+        ELSE IF ProgramChoice is equal to Scissors:
+          DISPLAY "Program chose Scissors, so you win this round!!"
+          SET PlayerWins equal PlayerWins + 1
+
+      ELSE IF PlayerChoice is equal to 2:
+        IF ProgramChoice is equal to Rock:
+          DISPLAY "Program chose Rock, so you win this round!!"
+          SET PlayerWins equal PlayerWins + 1
+        ELSE IF ProgamChoice is equal to Paper:
+          DISPLAY "Draw."
+        ELSE IF ProgramChoice is equal to Scissors:
+          DISPLAY "Program chose Scissors, so you lose this round!!"
+          SET PlayerLosses equal to PlayerLosses + 1
+
+      ELSE IF PlayerChoice is equal to 3:
+        IF ProgramChoice is equal to Rock:
+          DISPLAY "Program chose Rock, so you lose this round!!"
+          SET PlayerLosses equal to PlayerLosses + 1
+        ELSE IF ProgamChoice is equal to Paper:
+          DISPLAY "Program chose Paper, so you win this round!!"
+          SET PlayerWins equal PlayerWins + 1
+        ELSE IF ProgramChoice is equal to Scissors:
+          DISPLAY "Draw."
+
+      SET Rounds equal to Rounds - 1
+
+    DISPLAY "Game over.  Let's see who won?"
+    IF PlayerWins is greater than PlayerLosses:
+      DISPLAY "You win!!"
+    ELSE IF PlayerWins is less than PlayerLosses:
+      DISPLAY "You lose!"
+    ELSE:
+      DISPLAY "This game ended in a draw!"
+
+
+  ELSE IF GameChoice is equal to 3:
+    END Program
