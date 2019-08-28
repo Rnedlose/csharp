@@ -2976,6 +2976,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views/Shared/Layout.cshtml",
+      "TargetPath": "Views/Shared/Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views/Home/Contact.cshtml",
       "TargetPath": "Views/Home/Contact.cshtml",
       "FileKind": "mvc"
@@ -2988,11 +2993,6 @@
     {
       "FilePath": "Views/Shared/_CookieConsentPartial.cshtml",
       "TargetPath": "Views/Shared/_CookieConsentPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views/Shared/_Layout.cshtml",
       "FileKind": "mvc"
     }
   ],
