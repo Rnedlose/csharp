@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rnedl\\Documents\\myprojects\\csharp\\rnedlose_webapp\\rnedlose_webapp.csproj": {}
+    "/home/rod/Documents/myprojects/csharp/rnedlose_webapp/rnedlose_webapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rnedl\\Documents\\myprojects\\csharp\\rnedlose_webapp\\rnedlose_webapp.csproj": {
+    "/home/rod/Documents/myprojects/csharp/rnedlose_webapp/rnedlose_webapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rnedl\\Documents\\myprojects\\csharp\\rnedlose_webapp\\rnedlose_webapp.csproj",
+        "projectUniqueName": "/home/rod/Documents/myprojects/csharp/rnedlose_webapp/rnedlose_webapp.csproj",
         "projectName": "rnedlose_webapp",
-        "projectPath": "C:\\Users\\rnedl\\Documents\\myprojects\\csharp\\rnedlose_webapp\\rnedlose_webapp.csproj",
-        "packagesPath": "C:\\Users\\rnedl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rnedl\\Documents\\myprojects\\csharp\\rnedlose_webapp\\obj\\",
+        "projectPath": "/home/rod/Documents/myprojects/csharp/rnedlose_webapp/rnedlose_webapp.csproj",
+        "packagesPath": "/home/rod/.nuget/packages/",
+        "outputPath": "/home/rod/Documents/myprojects/csharp/rnedlose_webapp/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\rnedl\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/rod/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
