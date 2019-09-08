@@ -1,0 +1,11 @@
+/home/rod/Documents/myprojects/csharp/Mod05Lab01/bin/Debug/netcoreapp2.2/Mod05Lab01.deps.json
+/home/rod/Documents/myprojects/csharp/Mod05Lab01/bin/Debug/netcoreapp2.2/Mod05Lab01.runtimeconfig.json
+/home/rod/Documents/myprojects/csharp/Mod05Lab01/bin/Debug/netcoreapp2.2/Mod05Lab01.runtimeconfig.dev.json
+/home/rod/Documents/myprojects/csharp/Mod05Lab01/bin/Debug/netcoreapp2.2/Mod05Lab01.dll
+/home/rod/Documents/myprojects/csharp/Mod05Lab01/bin/Debug/netcoreapp2.2/Mod05Lab01.pdb
+/home/rod/Documents/myprojects/csharp/Mod05Lab01/obj/Debug/netcoreapp2.2/Mod05Lab01.csprojAssemblyReference.cache
+/home/rod/Documents/myprojects/csharp/Mod05Lab01/obj/Debug/netcoreapp2.2/Mod05Lab01.csproj.CoreCompileInputs.cache
+/home/rod/Documents/myprojects/csharp/Mod05Lab01/obj/Debug/netcoreapp2.2/Mod05Lab01.AssemblyInfoInputs.cache
+/home/rod/Documents/myprojects/csharp/Mod05Lab01/obj/Debug/netcoreapp2.2/Mod05Lab01.AssemblyInfo.cs
+/home/rod/Documents/myprojects/csharp/Mod05Lab01/obj/Debug/netcoreapp2.2/Mod05Lab01.dll
+/home/rod/Documents/myprojects/csharp/Mod05Lab01/obj/Debug/netcoreapp2.2/Mod05Lab01.pdb
