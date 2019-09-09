@@ -1,0 +1,11 @@
+/home/rod/Documents/myprojects/csharp/Games/bin/Debug/netcoreapp2.2/Games.deps.json
+/home/rod/Documents/myprojects/csharp/Games/bin/Debug/netcoreapp2.2/Games.runtimeconfig.json
+/home/rod/Documents/myprojects/csharp/Games/bin/Debug/netcoreapp2.2/Games.runtimeconfig.dev.json
+/home/rod/Documents/myprojects/csharp/Games/bin/Debug/netcoreapp2.2/Games.dll
+/home/rod/Documents/myprojects/csharp/Games/bin/Debug/netcoreapp2.2/Games.pdb
+/home/rod/Documents/myprojects/csharp/Games/obj/Debug/netcoreapp2.2/Games.csprojAssemblyReference.cache
+/home/rod/Documents/myprojects/csharp/Games/obj/Debug/netcoreapp2.2/Games.csproj.CoreCompileInputs.cache
+/home/rod/Documents/myprojects/csharp/Games/obj/Debug/netcoreapp2.2/Games.AssemblyInfoInputs.cache
+/home/rod/Documents/myprojects/csharp/Games/obj/Debug/netcoreapp2.2/Games.AssemblyInfo.cs
+/home/rod/Documents/myprojects/csharp/Games/obj/Debug/netcoreapp2.2/Games.dll
+/home/rod/Documents/myprojects/csharp/Games/obj/Debug/netcoreapp2.2/Games.pdb

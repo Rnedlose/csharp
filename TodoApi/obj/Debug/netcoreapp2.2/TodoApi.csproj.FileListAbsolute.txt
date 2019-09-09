@@ -1,0 +1,14 @@
+/home/rod/Documents/myprojects/csharp/TodoApi/bin/Debug/netcoreapp2.2/TodoApi.deps.json
+/home/rod/Documents/myprojects/csharp/TodoApi/bin/Debug/netcoreapp2.2/TodoApi.runtimeconfig.json
+/home/rod/Documents/myprojects/csharp/TodoApi/bin/Debug/netcoreapp2.2/TodoApi.runtimeconfig.dev.json
+/home/rod/Documents/myprojects/csharp/TodoApi/bin/Debug/netcoreapp2.2/TodoApi.dll
+/home/rod/Documents/myprojects/csharp/TodoApi/bin/Debug/netcoreapp2.2/TodoApi.pdb
+/home/rod/Documents/myprojects/csharp/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.csprojAssemblyReference.cache
+/home/rod/Documents/myprojects/csharp/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.csproj.CoreCompileInputs.cache
+/home/rod/Documents/myprojects/csharp/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.RazorAssemblyInfo.cache
+/home/rod/Documents/myprojects/csharp/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.RazorAssemblyInfo.cs
+/home/rod/Documents/myprojects/csharp/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.AssemblyInfoInputs.cache
+/home/rod/Documents/myprojects/csharp/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.AssemblyInfo.cs
+/home/rod/Documents/myprojects/csharp/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.RazorTargetAssemblyInfo.cache
+/home/rod/Documents/myprojects/csharp/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.dll
+/home/rod/Documents/myprojects/csharp/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.pdb
