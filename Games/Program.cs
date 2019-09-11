@@ -148,24 +148,28 @@ namespace Games
             Console.WriteLine("If you run out of guesses, you lose!!");
 
             int Guesses = 7;
-            string GuessWord;
             Random r = new Random();
-            string Word = Words[r.Next(0, Words.Count)];
-            StringBuilder sb = new StringBuilder();
+            string RandWord = Words[r.Next(0, Words.Count)];
+            int WordLength = RandWord.Length;
+            char[]Word = new char[WordLength];
+            char[]GuessWord = new char[WordLength];
+            bool WinFlag = false;
+
             Console.WriteLine("Your word has the following number of blank spaces: ");
-            for (int i = 0; i <Word.Length; i++)
+            for (int i = 0; i <RandWord.Length; i++)
             {
-                sb.Append("*");
+                Word[i] = RandWord[i];
+                GuessWord[i] = '*';
             }
 
             do
             {
-                Console.WriteLine(sb.ToString());
+                Console.WriteLine(GuessWord);
 
                 CharacterGuess();
 
                 WordGuess();
-            } while (Guesses != 0);
+            } while (Guesses >= 0 & WinFlag != true);
 
             void CharacterGuess()
             {
@@ -179,8 +183,7 @@ namespace Games
                 {
                     if (CharGuess == Word[i])
                     {
-                        sb.Insert(i, CharGuess);
-                        sb.Remove(i + 1, i +1);
+                        GuessWord[i] = Word[i];
                         Flag = true;
                     }
                 }
@@ -193,23 +196,28 @@ namespace Games
             void WordGuess()
             {
                 char Answer;
+                string PlayerGuessWord;
                 Console.WriteLine("Would you like to guess the word?");
                 Console.WriteLine("(Enter Y or y for yes, N or n for no.");
                 Answer = Console.ReadKey().KeyChar;
+                Console.WriteLine("\n");
 
                 if (Answer == 'Y' | Answer == 'y')
                 {
                     Console.WriteLine("Enter your word guess: ");
-                    GuessWord = Console.ReadLine();
+                    PlayerGuessWord = Console.ReadLine();
+
                     Console.WriteLine("\n");
 
-                    if (GuessWord == Word)
+                    if (PlayerGuessWord == RandWord)
                     {
                         Console.WriteLine("You correctly guess the word!");
-                        Console.WriteLine(Word);
+                        Console.WriteLine(RandWord);
                         Console.WriteLine("That means you win!!");
+                        WinFlag = true;
+
                         
-                    }else if(GuessWord != Word)
+                    }else if(PlayerGuessWord != RandWord)
                     {
                         Console.WriteLine("Incorrect Guess!!");
                         Guesses = Guesses -2;
