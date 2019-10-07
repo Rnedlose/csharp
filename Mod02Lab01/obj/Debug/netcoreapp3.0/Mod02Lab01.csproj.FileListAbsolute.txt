@@ -1,0 +1,11 @@
+C:\Users\rnedl\Documents\myprojects\csharp\Mod02Lab01\bin\Debug\netcoreapp3.0\Mod02Lab01.exe
+C:\Users\rnedl\Documents\myprojects\csharp\Mod02Lab01\bin\Debug\netcoreapp3.0\Mod02Lab01.deps.json
+C:\Users\rnedl\Documents\myprojects\csharp\Mod02Lab01\bin\Debug\netcoreapp3.0\Mod02Lab01.runtimeconfig.json
+C:\Users\rnedl\Documents\myprojects\csharp\Mod02Lab01\bin\Debug\netcoreapp3.0\Mod02Lab01.runtimeconfig.dev.json
+C:\Users\rnedl\Documents\myprojects\csharp\Mod02Lab01\bin\Debug\netcoreapp3.0\Mod02Lab01.dll
+C:\Users\rnedl\Documents\myprojects\csharp\Mod02Lab01\bin\Debug\netcoreapp3.0\Mod02Lab01.pdb
+C:\Users\rnedl\Documents\myprojects\csharp\Mod02Lab01\obj\Debug\netcoreapp3.0\Mod02Lab01.csprojAssemblyReference.cache
+C:\Users\rnedl\Documents\myprojects\csharp\Mod02Lab01\obj\Debug\netcoreapp3.0\Mod02Lab01.AssemblyInfoInputs.cache
+C:\Users\rnedl\Documents\myprojects\csharp\Mod02Lab01\obj\Debug\netcoreapp3.0\Mod02Lab01.AssemblyInfo.cs
+C:\Users\rnedl\Documents\myprojects\csharp\Mod02Lab01\obj\Debug\netcoreapp3.0\Mod02Lab01.dll
+C:\Users\rnedl\Documents\myprojects\csharp\Mod02Lab01\obj\Debug\netcoreapp3.0\Mod02Lab01.pdb
