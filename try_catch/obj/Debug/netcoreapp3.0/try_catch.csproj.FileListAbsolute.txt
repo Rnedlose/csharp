@@ -1,0 +1,11 @@
+/home/rod/Documents/myprojects/csharp/try_catch/bin/Debug/netcoreapp3.0/try_catch
+/home/rod/Documents/myprojects/csharp/try_catch/bin/Debug/netcoreapp3.0/try_catch.deps.json
+/home/rod/Documents/myprojects/csharp/try_catch/bin/Debug/netcoreapp3.0/try_catch.runtimeconfig.json
+/home/rod/Documents/myprojects/csharp/try_catch/bin/Debug/netcoreapp3.0/try_catch.runtimeconfig.dev.json
+/home/rod/Documents/myprojects/csharp/try_catch/bin/Debug/netcoreapp3.0/try_catch.dll
+/home/rod/Documents/myprojects/csharp/try_catch/bin/Debug/netcoreapp3.0/try_catch.pdb
+/home/rod/Documents/myprojects/csharp/try_catch/obj/Debug/netcoreapp3.0/try_catch.csprojAssemblyReference.cache
+/home/rod/Documents/myprojects/csharp/try_catch/obj/Debug/netcoreapp3.0/try_catch.AssemblyInfoInputs.cache
+/home/rod/Documents/myprojects/csharp/try_catch/obj/Debug/netcoreapp3.0/try_catch.AssemblyInfo.cs
+/home/rod/Documents/myprojects/csharp/try_catch/obj/Debug/netcoreapp3.0/try_catch.dll
+/home/rod/Documents/myprojects/csharp/try_catch/obj/Debug/netcoreapp3.0/try_catch.pdb
