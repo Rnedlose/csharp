@@ -1,0 +1,10 @@
+C:\Users\rnedl\source\repos\demoLogin\bin\Debug\demoLogin.exe.config
+C:\Users\rnedl\source\repos\demoLogin\bin\Debug\demoLogin.exe
+C:\Users\rnedl\source\repos\demoLogin\bin\Debug\demoLogin.pdb
+C:\Users\rnedl\source\repos\demoLogin\obj\Debug\demoLogin.csprojAssemblyReference.cache
+C:\Users\rnedl\source\repos\demoLogin\obj\Debug\demoLogin.frmLogin.resources
+C:\Users\rnedl\source\repos\demoLogin\obj\Debug\demoLogin.frmMain.resources
+C:\Users\rnedl\source\repos\demoLogin\obj\Debug\demoLogin.Properties.Resources.resources
+C:\Users\rnedl\source\repos\demoLogin\obj\Debug\demoLogin.csproj.GenerateResource.cache
+C:\Users\rnedl\source\repos\demoLogin\obj\Debug\demoLogin.exe
+C:\Users\rnedl\source\repos\demoLogin\obj\Debug\demoLogin.pdb
